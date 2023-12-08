@@ -1,0 +1,98 @@
+/* Style for the header section */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Style for the logo */
+  .logo {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Style for the navigation links */
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  /* Style for the dropdown menus */
+  .navbar ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar ul li:hover > ul {
+    display: inherit;
+  }
+  
+  .navbar ul li ul li {
+    width: 100%;
+    display: list-item;
+    text-align: center;
+  }
+  
+  .navbar ul li ul li a {
+    color: #fff;
+  }
+  
+  /* Style for the icons */
+  .navbar ul li a i {
+    margin-left: 5px;
+  }
+  
+  /* Style for the menu button */
+  #menu-btn {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style for the account dropdown */
+  .navbar ul li ul li ul {
+    top: 100%;
+    left: 0;
+  }
+  
+  /* Style for the heart icon */
+  .navbar ul li a i.far.fa-heart {
+    color: red;
+  }
+  
+  /* Style for the angle down icon */
+  .navbar ul li a i.fas.fa-angle-down {
+    margin-left: 5px;
+  }
+  
+  /* Style for the bars icon */
+  #menu-btn {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style for the fixed header */
+  .nav-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    z-index: 999;
+  }
+  
